@@ -1,0 +1,130 @@
+.signup-sidebar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo-link{
+    padding: 20px;
+    display: block;
+}
+.logo-link img{
+    width: 150px;
+}
+.sidebar-wrapper {
+    max-width: 500px;
+    padding: 30px;
+    height: 100dvh;
+    background: rgb(187, 209, 255);
+    background: linear-gradient(360deg, rgba(187, 209, 255, 1) 35%, rgba(238, 244, 255, 1) 100%);
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.signup-page-container {
+    flex-grow: 1;
+    margin: 0 auto;
+}
+
+.signup-form-container {
+    display: grid;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.signup-form {
+    padding: 30px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 0.876rem;
+}
+
+.signup-form p {
+    color: gray;
+    font-size: 1.1rem;
+}
+
+.mobile-no-country-code {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown {
+    padding: 10px;
+    background-color: white;
+    border: 1px dotted gray;
+    color: gray;
+}
+
+
+
+.signup-form h2 {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.input {
+    padding: 15px 10px;
+    border-radius: 0.6rem;
+    width: 100%;
+    border: 1px dotted #333;
+}
+
+.input:focus {
+    outline: none;
+    border: 1px solid #333;
+}
+
+.submit-btn {
+    padding: 10px;
+    background-color: #4589D4;
+    color: white;
+    border-radius: 0.97rem;
+    cursor: pointer;
+    width: 200px;
+    padding: 15px 0;
+    border: none;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    color: gray;
+    justify-content: center;
+}
+
+.signup a {
+    text-decoration: underline;/
+}
+span{
+    color: gray;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+    .signup-form-container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .sidebar-wrapper {
+        padding: 30px;
+        min-width: 100%;
+    }
+}
+
+@media (max-width:800px) {
+    .sidebar-wrapper {
+        min-width: 100%;
+    }
+}

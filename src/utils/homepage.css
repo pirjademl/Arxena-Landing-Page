@@ -1,0 +1,72 @@
+.search-organization-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.search-organization-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 8rem 0;
+}
+
+.search-field-wrapper {
+    width: 35%;
+}
+
+.organization-logo img {
+    aspect-ratio: 2/1;
+    width: 200px;
+}
+
+
+
+
+
+.search-field-wrapper {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.search-field {
+    background-image: url('../assets/new_upload.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25px;
+    width: 100%;
+    position: relative;
+    max-width: 500px;
+    background-color: #F7F7FB;
+    padding: 15px 30px;
+    border: 1px solid #F7F7FB;
+    border-radius: 0.7rem;
+}
+
+.new-upload-icon {
+    position: absolute;
+    aspect-ratio: 1/1;
+    right: 43px;
+    top: 10px;
+    width: 30px;
+
+}
+
+.search-field:focus {
+    outline: none;
+    border: 1px solid #F7F7FB;
+
+}
+
+.gpt4-wrapper img {
+    width: 200px;
+}

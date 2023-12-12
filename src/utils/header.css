@@ -1,0 +1,64 @@
+header {
+    background-color: #FFFFFF;
+
+}
+
+.top-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 30px;
+    align-items: center;
+    padding-top: 15px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.user-signup-login-section {
+    display: flex;
+    gap: 1.3rem;
+}
+
+.brand-logo {
+    aspect-ratio: 2/1;
+    width: 100px;
+}
+
+.btn {
+
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px 13px;
+    border: none;
+    border-radius: 0.954rem;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sign-up {
+    background-color: #2474CC;
+    outline: none;
+    height: 50px;
+    padding: 0 30px;
+}
+
+.login {
+    border: 1px solid #2474CC;
+    background-color: transparent;
+    color: #2474CC;
+    padding: 0 30px;
+
+}
+
+@media (max-width:600px) {
+    .brand-logo {
+        display: none;
+    }
+
+    .top-navbar {
+        padding-inline: 10px;
+    }
+}

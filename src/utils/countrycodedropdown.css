@@ -1,0 +1,14 @@
+
+
+.mobile-number-dropdown select {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: white;
+    border: 1px dotted gray;
+    border-radius: 0.6rem;
+    color: gray;
+}
+.mobile-number-dropdown{
+    margin: 0;
+}
