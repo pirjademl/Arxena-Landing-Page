@@ -1,5 +1,5 @@
 .main-footer {
-    padding: 20px;
+    padding-inline: 20px;
 }
 
 .footer-wrapper {
@@ -43,7 +43,7 @@
 
 .org-footer-links a {
     text-decoration: none;
-    padding:5px;
+    padding: 5px;
     border-right: 1px solid black;
 }
 
